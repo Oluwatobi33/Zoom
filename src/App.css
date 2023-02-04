@@ -68,6 +68,9 @@
 .face {
   position: relative;
   bottom: 35px;
+  right: 20px;
+  bottom: 45px;
+  font-size: 40px;
 }
 /* .horizontal {
   display: block;
@@ -522,6 +525,13 @@ a {
   }
   .in {
     display: none;
+  }
+  .face {
+    position: relative;
+    bottom: 35px;
+    right: 108px;
+    bottom: 45px;
+    font-size: 40px;
   }
   .form-control {
     display: block;
