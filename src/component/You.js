@@ -16,7 +16,7 @@ const You = () => {
     return (
         <>
             <div className='container mt-5'>
-                <div className="row">
+                <div className="row mb-4">
                     <div className="col-md-6 col-lg-6">
                         <div id="screen2_container" className="screen normal">
                             <div className="circle">
@@ -78,7 +78,7 @@ const You = () => {
                             </ul> */}
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-6">
+                    <div className="col-md-6 col-lg-6 mt-5">
                         <div className="card border border-0" style={{ width: "25rem", height: "25rem" }}>
                             <div className="card-body text-center">
                                 <div className='row'>
@@ -102,7 +102,7 @@ const You = () => {
                 </div>
             </div >
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="container">
+                <div className="container mt-5">
                     <div className="carousel-inner">
                         <div className="row">
                             <div className="col-lg-5">

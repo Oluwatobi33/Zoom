@@ -147,7 +147,8 @@
   opacity: 0.3;
   border-bottom: none;
   width: 200px !important;
-  height: 40px;
+  height: 71px;
+  padding: 18px 0px;
 }
 .second img:hover {
   opacity: 4;
@@ -195,11 +196,7 @@
   }
 } */
 .loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  border-left: 16px solid pink; /* Blue */
+  border: 2px solid #39394d;
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -433,12 +430,14 @@ set1:hover {
   background-color: #f26d21;
   border: 1px solid #f26d21;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 12px;
-  padding: 10px 12px;
+  padding: 18px 8px;
   color: white !important;
   text-decoration: none;
-  height: 100px;
+
+  height: 75px;
+  width: 16vw;
 }
 .flip {
   display: grid;
@@ -503,24 +502,23 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     width: 200px;
-    padding: 12px 0px;
+    padding: 19px 0px;
   }
   .flip {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   .sign-up {
-    display: block !important;
     background-color: #f26d21;
     border: 1px solid #f26d21;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 12px;
-    width: 134px;
-    float: inline-start;
-    padding: 10px 12px;
+    padding: 18px 8px;
     color: white !important;
     text-decoration: none;
+    height: 75px;
+    width: 36vw;
   }
   .in {
     display: none;
